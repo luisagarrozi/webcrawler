@@ -8,5 +8,8 @@ export function getSearchHistory() {
   const searchItems = (oldItems ? JSON.parse(oldItems) : []) as SearchTerm[];
   return searchItems;
 }
- 
 
+
+export function cleanSearchHistory() {
+  localStorage.removeItem("axursearch");
+}

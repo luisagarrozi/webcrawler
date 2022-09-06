@@ -1,10 +1,9 @@
-import React from 'react';
-import axurLogo from '../../../assets/AxurLogo.png';
-import './App.css';
+import axurLogo from '../../assets/AxurLogo.png';
+import SearchBar from '../../components/searchBar/searchBar';
+import SearchHistory from '../../components/searchHistory/searchHistory';
 
 function HomePage() {
   return (
-    <body>
     <main>
     <section className="mainColumn-left">
     <div className="topBar">
@@ -19,7 +18,6 @@ function HomePage() {
     <SearchHistory />
     </section>
     </main>
-    </body>
   );
 }
 
